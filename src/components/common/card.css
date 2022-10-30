@@ -1,0 +1,47 @@
+.card1 {
+  background: #ffffff;
+  border: 1px solid #eff0f6;
+  border-radius: 20px;
+  width: 490px;
+  height: 185px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-content {
+  width: 315px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-content > span {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  left: 30px;
+  top: 130px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #4d4d4d;
+}
+
+.text-number {
+  position: absolute;
+  left: 9%;
+  top: 37%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
