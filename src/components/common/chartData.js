@@ -1,19 +1,19 @@
 export const ChartData = [
   {
-    Month: "JAN",
-    value: "300k"
+    name: "JAN",
+    value: "300"
   },
   {
     name: "FEB",
-    value: "50k"
+    value: "50"
   },
   {
     name: "MAR",
-    value: "400k"
+    value: "400"
   },
   {
     name: "APR",
-    value: "700k"
+    value: "680"
   },
   {
     name: "MAY",
@@ -25,26 +25,18 @@ export const ChartData = [
   },
   {
     name: "JULY",
-    value: "650k"
+    value: "650"
   },
   {
     name: "AUG",
-    value: "675k"
+    value: "675"
   },
   {
     name: "SEP",
-    value: "456k"
+    value: "456"
   },
   {
     name: "OCT",
-    value: "250k"
-  },
-  {
-    name: "NOV",
-    value: "545k"
-  },
-  {
-    name: "DEC",
-    value: "567k"
+    value: "250"
   }
 ];

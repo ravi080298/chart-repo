@@ -4,11 +4,17 @@
   margin: 20px;
 }
 
+.right-home,
 .left-home {
-  width: 50%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 50px;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: row;
   gap: 50px;
 }
 
@@ -35,4 +41,18 @@
   border-radius: 20px;
   width: 490px;
   height: 250px;
+}
+
+.chart-title {
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+  color: lightgray;
+}
+
+.pie-card {
+  background: #ffffff;
+  border: 1.88493px solid #eff0f6;
+  border-radius: 20px;
+  width: 546px;
+  height: 390px;
 }

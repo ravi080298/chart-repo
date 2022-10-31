@@ -8,7 +8,7 @@ import Bar from "../common/Bar/bar.js";
 
 const BarChart = () => {
   const data = ChartData;
-  const parentWidth = 500;
+  const parentWidth = 400;
   const margin = {
     top: 10,
     right: 10,
