@@ -53,6 +53,9 @@
   background: #ffffff;
   border: 1.88493px solid #eff0f6;
   border-radius: 20px;
-  width: 546px;
-  height: 390px;
+  width: 565px;
+  height: 419px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

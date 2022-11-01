@@ -1,11 +1,11 @@
 import React from "react";
-import { select, event } from "d3-selection";
-import { transition } from "d3-transition";
+import { select } from "d3-selection";
 
 class Bar extends React.Component {
   constructor() {
     super();
     this.ref = React.createRef();
+    this.init = this.init.bind(this);
   }
   componentDidMount() {
     this.init();
@@ -25,19 +25,16 @@ class Bar extends React.Component {
       .attr("height", (d) => height - yScale(d.value));
   }
   init() {
-    const { xScale, yScale, data, height } = this.props;
+    const { xScale, data, height } = this.props;
     const node = this.ref.current;
 
-    // prepare initial data from where transition starts.
     const initialData = data.map((obj) => ({
       name: obj.name,
       value: 0
     }));
 
-    // prepare the field
     const bar = select(node).selectAll(".bar").data(initialData);
 
-    // add rect to svg
     bar
       .enter()
       .append("rect")
